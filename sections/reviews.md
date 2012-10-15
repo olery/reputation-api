@@ -15,7 +15,7 @@ ratings, as well as the sentiment analysis when a review text is provided.
 ````json
     {
       "title": "This is my new review!",
-      "comment": "This is my review comment, made up in markdown"
+      "comment": "This is my review comment, made up in markdown",
       "author": {
         "name": "Some reviewer",
         "age" : "Age indicator",
