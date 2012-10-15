@@ -12,6 +12,7 @@ ratings, as well as the sentiment analysis when a review text is provided.
 
 * `POST /reviews.json` will create a new review from the parameters passed.
 
+````json
     {
       "title": "This is my new review!",
       "comment": "This is my review comment, made up in markdown"
@@ -26,6 +27,7 @@ ratings, as well as the sentiment analysis when a review text is provided.
         "value" : 10
       }
     }
+````
 
 This will return `201 Created`, with the location of the new review in the Location header along with the current JSON representation of the reviews if the creation was a success.
 
