@@ -5,12 +5,12 @@ Documentation on Using Olery Reputation APIs
 
 Making a Request
 ----------------
-All URLs start with https://api.olery.com/[api-function/v1/. SSL only. If we change the API in backward-incompatible ways, we'll bump the version marker and maintain stable support for the old URLs.
+All URLs start with https://api.olery.com/reputation/v1/. SSL only. If we change the API in backward-incompatible ways, we'll bump the version marker and maintain stable support for the old URLs.
 
 To make a request for all reviews in a certain period, you'd append the reviews index path to the base url to form something like https://api.olery.com/reputation/v1/reviews.json. In curl, that looks like:
 
 ````shell
-curl -u user:pass -H 'User-Agent: MyApp (yourname@example.com)' https://basecamp.com/999999999/api/v1/projects.json
+curl -u user:pass -H 'User-Agent: MyApp (yourname@example.com)' https://api.olery/com/reputation/v1/reviews.json
 ````
 
 To create something, it's the same deal except you also have to include the Content-Type header and the JSON data:
