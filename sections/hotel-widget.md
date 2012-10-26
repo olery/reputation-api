@@ -70,6 +70,13 @@ Currently the widget supports 2 locales:
 
 You can set the locale by setting `data-locale="en"` attribute on the `.olery-hotel-widget` element.
 
+Styles
+------
+
+Currently 2 styles are supported. Bar and Block. (see images on top of the document). You can set the style of the widget by setting the `data-type` attribute on the `.olery-hotel-widget` element.
+
+In order to get a bar widget include `<div class="olery-hotel-widget" data-type="bar" ... > ... </div>`. By changing `"bar"` into `"block"` the style of the widget will change.
+
 Generated HTML
 --------------
 
