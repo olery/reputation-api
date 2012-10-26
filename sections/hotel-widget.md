@@ -19,6 +19,8 @@ Below you see two example images. More [detailed examples can be found here](htt
 
 ![block-layout](https://raw.github.com/olery/reputation-api/master/images/hotel-widget/block-1.png)
 
+Examples of how to embed the widget in HTML [can be found here](https://github.com/olery/reputation-api/blob/master/examples/hotel-widget).
+
 Authentication Token
 --------------------
 

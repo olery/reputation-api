@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title></title>
+
+<script type="text/javascript" src="http://widgets.olery.com/jquery-1.7.1.min.js"></script>
+
+<!--[if lt IE 9]>
+    <script type="text/javascript" src="http://widgets.olery.com/html5.js"></script>
+    <script type="text/javascript" src="http://widgets.olery.com/json2.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="http://widgets.olery.com/hotel.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function() {
+    try{
+        _olery._initialize_widgets("OLERY-xxxxxxxxxx");
+    } catch(err) {
+      console.log(err);
+    }
+});
+</script>
+<link rel="stylesheet" href="http://widgets.olery.com/hotel.css"/>
+
+</head>
+<body>
+
+    <br/><br/><br/><br/><br/><br/><br/>
+
+    <div class="olery-hotel-widget" data-hotel="[olery-hotel-id]" data-type="bar" data-locale="nl">
+        <a href="http://gei.olery.com/hotels/[olery-hotel-id]">Check the Guest Experience of this Hotel</a>
+    </div>
+
+    <br/>
+
+    <div class="olery-hotel-widget" data-hotel="[olery-hotel-id]" data-type="bar" data-locale="en">
+        <a href="http://gei.olery.com/hotels/[olery-hotel-id]">Check the Guest Experience of this Hotel</a>
+    </div>
+
+    <br/>
+
+    <div class="olery-hotel-widget olery-box-widget" data-hotel="[olery-hotel-id]" data-type="widget" data-locale="en">
+        <a href="http://gei.olery.com/hotels/[olery-hotel-id]">Check the Guest Experience of this Hotel</a>
+    </div>
+
+    <br/>
+
+    <div class="olery-hotel-widget olery-box-widget" data-hotel="[olery-hotel-id]" data-type="widget" data-locale="nl">
+        <a href="http://gei.olery.com/hotels/[olery-hotel-id]">Check the Guest Experience of this Hotel</a>
+    </div>
+
+</body>
+</html>
