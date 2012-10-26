@@ -1,6 +1,8 @@
 Olery Reputation - Hotel Widget
 ===============================
 
+** this api is currently in Beta **
+
 With the Olery hotel widget it is possible to include a summary of the hotel information present in Olery Reputation on another website or intranet.
 
 Examples

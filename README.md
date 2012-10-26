@@ -37,10 +37,10 @@ Please provide a
 either as part of the params in the url or post it as a parameter with the request.
 
 APIs in Development
---------------------------
+-------------------
 
-* [Reviews](https://github.com/olery/reputation-api/blob/master/sections/reviews.md)
-* [Hotel Widget](https://github.com/olery/reputation-api/blob/master/sections/hotel-widget.md)
+* [Reviews](https://github.com/olery/reputation-api/blob/master/sections/reviews.md) (in development, not operational yet)
+* [Hotel Widget](https://github.com/olery/reputation-api/blob/master/sections/hotel-widget.md) (currently in Beta)
 
 General notes
 -------------

@@ -1,6 +1,8 @@
 Reviews Api
 ===========
 
+** This api is in active development and not operational yet ** However, the API definition is close to final, so feel free to start implementing.
+
 Create new Reviews
 ------------------
 
