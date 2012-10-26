@@ -60,6 +60,19 @@ The basic Javascript will take care that, as long as the widget is not loaded, t
 
 On initialization the Widget Javascript will find all div-elements with a olery-hotel-widget class and initialize all data. Replacing the HTML and loading data with an AJAX call per hotel.
 
+Locales
+-------
+
+Currently the widget supports 2 locales:
+
+* en - English
+* nl - Dutch
+
+You can set the locale by setting `data-locale="en"` attribute on the `.olery-hotel-widget` element.
+
+Generated HTML
+--------------
+
 The generated HTML per hotel will look like this:
 
 ```html
