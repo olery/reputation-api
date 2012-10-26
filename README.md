@@ -40,7 +40,7 @@ APIs in Development
 --------------------------
 
 * [Reviews](https://github.com/olery/reputation-api/blob/master/sections/reviews.md)
-
+* [Hotel Widget](https://github.com/olery/reputation-api/blob/master/sections/hotel-widget.md)
 
 General notes
 -------------
