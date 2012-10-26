@@ -14,6 +14,7 @@ Olery currently offers 2 layouts for the widget:
 Below you see two example images. More [detailed examples can be found here](https://github.com/olery/reputation-api/blob/master/images/hotel-widget).
 
 ![bar-layout](https://raw.github.com/olery/reputation-api/master/images/hotel-widget/bar-1.png)
+
 ![block-layout](https://raw.github.com/olery/reputation-api/master/images/hotel-widget/block-1.png)
 
 Authentication Token
