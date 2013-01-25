@@ -19,7 +19,7 @@ To create something, it's the same deal except you also have to include the Cont
 curl -u username:password \
   -H 'Content-Type: application/json' \
   -H 'User-Agent: MyApp (yourname@example.com)' \
-  -d '{ "title": "My new review!" }' \
+  -d '{ ["title": "My new review!"] }' \
   https://api.olery.com/reputation/v1/reviews.json
 ````
 
