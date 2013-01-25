@@ -27,8 +27,8 @@ ratings, as well as the sentiment analysis when a review text is provided.
         "origin" : "Someplace, Somecountry"
       },
       "ratings": {
-        "overall" : 9.0,
-        "cleanliness" : 8.0,
+        "overall" : 90,
+        "cleanliness" : 85,
         "value" : 10
       }
     },
