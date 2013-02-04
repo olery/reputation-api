@@ -19,6 +19,7 @@ ratings, as well as the sentiment analysis when a review text is provided.
     "auth_token": "Your auth token",
     "reviews":[
     {
+      "publish_date": "2012-12-31",
       "title": "This is my new review!",
       "comment": "This is my review comment, made up in markdown",
       "author": {
@@ -27,12 +28,27 @@ ratings, as well as the sentiment analysis when a review text is provided.
         "origin" : "Someplace, Somecountry"
       },
       "ratings": {
-        "overall" : 90,
-        "cleanliness" : 85,
+        "overall" : 9.0,
+        "cleanliness" : 8.0,
         "value" : 10
       }
     },
-    {"title": "Some other review"}]
+    {
+      "publish_date": "2013-01-01",
+      "title": "This is another review",
+      "comment": "So nice to be able to push an array of reviews",
+      "author": {
+        "name": "Some reviewer",
+        "age" : "Age indicator",
+        "origin" : "Someplace, Somecountry"
+      },
+      "ratings": {
+        "overall" : 9.0,
+        "rooms" : 8.0,
+        "childfriendliness" : 9.0,
+        "value" : 10
+      }
+    }]
 }
 ````
 
@@ -46,8 +62,8 @@ If the api-key has reached the project limit, you'll see `429 Too Many Requests`
 A review consists of several required and optional fields. Below these fields are listed, including an example.
 
 * `title` (optional) - `String`. Example: `It was amazing!`
-* `publish_date` (required) - `Date`. Example: `2012-01-30`
-* `source_url` (required) - `String`. A url, preferably a deep-link to the origin of the review. Example: `http://my-review-site.com/review/review-id`
+* `publish_date` (required) - `String`, formatted as '%Y-%m-%d'. Example: `2012-01-30`
+* `source_url` (optional) - `String`. A url, preferably a deep-link to the origin of the review. Example: `http://my-review-site.com/review/review-id`
 * `comment` (optional) - `Text`. Example: `Very Very nice hotel.`
 * `management_response` (optional) - `Text`. Example: `Thank you for staying in the hotel. Hope to see you next time`
 * `author` (optional)
@@ -56,11 +72,11 @@ A review consists of several required and optional fields. Below these fields ar
     - `author.location` (optional) - `String`. Example `Atlanta, Georgia`
     - `author.reason` (optional) - `String`. Example `Business` other options are `Leisure`
 * `ratings`
-    - `ratings.overall` (required) - `Float` [10-100].
-    - `ratings.value` (optional) - `Float` [10-100].
-    - `ratings.rooms` (optional) - `Float` [10-100].
-    - `ratings.cleanliness` (optional) - `Float` [10-100].
-    - `ratings.location` (optional) - `Float` [10-100].
-    - `ratings.service` (optional) - `Float` [10-100].
-    - `ratings.food` (optional) - `Float` [10-100].
+    - `ratings.overall` (required) - `Integer` [10-100].
+    - `ratings.value` (optional) - `Integer` [10-100].
+    - `ratings.rooms` (optional) - `Integer` [10-100].
+    - `ratings.cleanliness` (optional) - `Integer` [10-100].
+    - `ratings.location` (optional) - `Integer` [10-100].
+    - `ratings.service` (optional) - `Integer` [10-100].
+    - `ratings.food` (optional) - `Integer` [10-100].
 
