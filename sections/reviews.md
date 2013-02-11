@@ -28,9 +28,9 @@ ratings, as well as the sentiment analysis when a review text is provided.
         "origin" : "Someplace, Somecountry"
       },
       "ratings": {
-        "overall" : 9.0,
-        "cleanliness" : 8.0,
-        "value" : 10
+        "overall" : 90,
+        "cleanliness" : 80,
+        "value" : 95
       }
     },
     {
@@ -43,10 +43,10 @@ ratings, as well as the sentiment analysis when a review text is provided.
         "origin" : "Someplace, Somecountry"
       },
       "ratings": {
-        "overall" : 9.0,
-        "rooms" : 8.0,
-        "childfriendliness" : 9.0,
-        "value" : 10
+        "overall" : 90,
+        "rooms" : 80,
+        "childfriendliness" : 90,
+        "value" : 100
       }
     }]
 }
