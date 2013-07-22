@@ -79,4 +79,5 @@ A review consists of several required and optional fields. Below these fields ar
     - `ratings.location` (optional) - `Integer` [10-100].
     - `ratings.service` (optional) - `Integer` [10-100].
     - `ratings.food` (optional) - `Integer` [10-100].
+    - `ratings.your-own-rating` (optional) - `Integer` [10-100].
 
