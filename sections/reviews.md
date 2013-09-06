@@ -6,6 +6,12 @@ Reviews Api
 Create new Reviews
 ------------------
 
+The basic endpoint for review creation is:
+
+```
+http://api.olery.com/v1/reputation/reviews.json
+```
+
 The reviews API provides partners from Olery an endpoint to push reviews or collections of reviews
 to Olery Reputation. The reviews will be part of the numerical analysis, like the average review
 ratings, as well as the sentiment analysis when a review text is provided.
