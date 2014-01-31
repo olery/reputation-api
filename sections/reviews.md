@@ -28,7 +28,7 @@ ratings, as well as the sentiment analysis when a review text is provided.
       "publish_date": "2012-12-31",
       "title": "This is my new review!",
       "comment": "This is my review comment, made up in markdown",
-      "author": {
+      "reviewer": {
         "name": "Some reviewer",
         "age" : "Age indicator",
         "origin" : "Someplace, Somecountry"
@@ -43,7 +43,7 @@ ratings, as well as the sentiment analysis when a review text is provided.
       "publish_date": "2013-01-01",
       "title": "This is another review",
       "comment": "So nice to be able to push an array of reviews",
-      "author": {
+      "reviewer": {
         "name": "Some reviewer",
         "age" : "Age indicator",
         "origin" : "Someplace, Somecountry"
@@ -72,11 +72,11 @@ A review consists of several required and optional fields. Below these fields ar
 * `source_url` (optional) - `String`. A url, preferably a deep-link to the origin of the review. Example: `http://my-review-site.com/review/review-id`
 * `comment` (optional) - `Text`. Example: `Very Very nice hotel.`
 * `management_response` (optional) - `Text`. Example: `Thank you for staying in the hotel. Hope to see you next time`
-* `author` (optional)
-    - `author.name` (optional) - `String`. Example: `John Doe`
-    - `author.age` (optional) - `String`. Example `25-39`
-    - `author.location` (optional) - `String`. Example `Atlanta, Georgia`
-    - `author.reason` (optional) - `String`. Example `Business` other options are `Leisure`
+* `reviewer` (optional)
+    - `reviewer.name` (optional) - `String`. Example: `John Doe`
+    - `reviewer.age` (optional) - `String`. Example `25-39`
+    - `reviewer.location` (optional) - `String`. Example `Atlanta, Georgia`
+    - `reviewer.reason` (optional) - `String`. Example `Business` other options are `Leisure`
 * `ratings`
     - `ratings.overall` (required) - `Integer` [10-100].
     - `ratings.value` (optional) - `Integer` [10-100].
