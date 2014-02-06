@@ -72,7 +72,7 @@ A review consists of several required and optional fields. Below these fields
 are listed, including an example.
 
 * `title` (optional) - `String`. Example: `It was amazing!`
-* `publish_date` (required) - `String`, formatted as '%Y-%m-%d'. Example: `2012-01-30`
+* `publish_date` (required) - `String`, formatted as ISO 8601 ('%Y-%m-%d' would be the strftime format). Example: `2012-01-30`
 * `source_url` (optional) - `String`. A url, preferably a deep-link to the origin of the review. Example: `http://my-review-site.com/review/review-id`
 * `comment` (optional) - `Text`. Example: `Very Very nice hotel.`
 * `management_response` (optional) - `Text`. Example: `Thank you for staying in the hotel. Hope to see you next time`
