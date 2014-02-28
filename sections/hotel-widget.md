@@ -60,6 +60,14 @@ The basic Javascript will take care that, as long as the widget is not loaded, t
 
 On initialization the Widget Javascript will find all div-elements with a olery-hotel-widget class and initialize all data. Replacing the HTML and loading data with an AJAX call per hotel.
 
+If you want to disable the tooltip of a particular widget you can do so by adding `data-tooltip="false"` to the widget:
+
+```html
+<div class="olery-hotel-widget" data-hotel="XXXX" data-type="bar" data-locale="en" data-tooltip="false">
+  <a href="http://gei.olery.com/hotels/XXXX">Check the Guest Experience of this Hotel</a>
+</div>
+```
+
 Locales
 -------
 
