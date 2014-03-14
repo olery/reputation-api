@@ -71,12 +71,14 @@ If you want to disable the tooltip of a particular widget you can do so by addin
 Locales
 -------
 
-Currently the widget supports 2 locales:
+Currently the following locales are supported:
 
 * en - English
 * nl - Dutch
+* fr - French
+* de - German
 
-You can set the locale by setting `data-locale="en"` attribute on the `.olery-hotel-widget` element.
+You can set the locale by setting `data-locale="en"` (for English in this case) attribute on the `.olery-hotel-widget` element.
 
 Styles
 ------
