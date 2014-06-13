@@ -34,7 +34,11 @@ Script Inclusion
 To include the Olery widget include the following scripts at the bottom of the page right above the body-tag.
 
 ```html
+<!-- if jQuery is not already used add the following line before loading hotel.js -->
+<script type="text/javascript" src="http://widgets.olery.com/jquery-1.7.1.min.js"></script>
+
 <script src="http://widgets.olery.com/hotel.js" type="text/javscript"></script>
+
 <script type="text/javascript">
 try{
   _olery._initialize_widgets("OLERY-XXXXXXXXXXX");
