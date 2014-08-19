@@ -24,9 +24,12 @@ Examples of how to embed the widget in HTML [can be found here](https://github.c
 Authentication Token
 --------------------
 
-In order to get information for 1 or more hotels you need to request an Olery API access token. You can request a token at your Olery Sales representative or by mailing support@olery.com. This token is formatted like:
+In order to get information for 1 or more hotels you need to request an Olery API access token. You can request a token at your Olery Sales representative or by mailing support@olery.com. This token is a randomly generated string,
+an example of such a token is the following:
 
-    OLERY-XXXXXXXXXXXX
+    c67d4ff4820e7f58fd38cfdf2e5fd92b
+    
+Note that this specific token is just an example, you can't actually use it with the widgets.
 
 Script Inclusion
 ----------------
@@ -41,7 +44,7 @@ To include the Olery widget include the following scripts at the bottom of the p
 
 <script type="text/javascript">
 try{
-  _olery._initialize_widgets("OLERY-XXXXXXXXXXX");
+  _olery._initialize_widgets("Place your token here, make sure to include the quotes");
 } catch(err) {}
 </script>
 ```
